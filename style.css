@@ -338,7 +338,7 @@ li a{
 
     ul{
         display: flex;
-        gap: 50px;
+        gap: 20px;
         flex-direction: row;
         padding: 0;
         justify-content: flex-end;
@@ -435,7 +435,10 @@ li a{
     }
   }
 
-  @media (min-width: 800px) {
+  @media (min-width: 900px) {
+    ul{
+        gap: 50px;
+    }
     .texto-grid{
         display: flex;
         flex-direction: column;
